@@ -8,7 +8,7 @@ Efficient Animation: Utilizing react-three/fiber and react-three/drei, animation
 Node.js Backend: The backend, powered by Node.js, ensures dynamic content management and facilitates seamless updates to the portfolio.
 
 **Technologies Used:**
-Frontend: React.js, Tailwind CSS, HTML, react-three/fiber, react-three/drei, JavaScript
+Frontend: React.js, Tailwind CSS, HTML, react-three/fiber, react-three/drei, JavaScript, Vite JS
 Backend: Node.js
 
 **Achievements:**
