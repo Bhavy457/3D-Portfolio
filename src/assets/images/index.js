@@ -1,15 +1,23 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import varcons from './varcons.jpg'
+import sutish from './sutish.jpg'
 import logo from './logo.svg'
+import bank from './bank.png'
+import book from './book.png'
+import classifier from './classifier.png'
+import news from './news.png'
+import photography from './photography.png'
+import port from './port.png'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    varcons,
+    sutish,
+    logo,
+    bank,
+    book,
+    classifier,
+    news,
+    photography,
+    port
 }

@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { varcons, sutish, bank, book, classifier, news, photography, port } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,14 +13,10 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
 
@@ -111,11 +105,11 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "Varcons Technologies",
+        icon: varcons,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "August 2023 - September 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -124,105 +118,79 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Full Stack Java Developer",
+        company_name: "Sutish Tech Solutions Pvt Ltd",
+        icon: sutish,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2023 - August 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+     },
 ];
 
 export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: 'mailto:bhavyjain533@gmail.com',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Bhavy457',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/bhavy-jain',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: classifier,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Tomato Leaf Disease Classifier',
+        description: 'Python project based on Machine Learning using FASTAPI, to help identify different classes of tomato leaf diseases. Built using Python, Numpy, OpenCV, TensorFlow, FASTAPI.',
+        link: 'https://github.com/Bhavy457/Tomato-Leaf-Disease-Classifier',
     },
     {
-        iconUrl: threads,
+        iconUrl: port,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Portfolio',
+        description: 'Created a simple Portfolio website highlighting skills, experience built using HTML, CSS and Javascript.',
+        link: 'https://portfolio-main-bhavy.vercel.app/',
     },
     {
-        iconUrl: car,
+        iconUrl: news,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'News Application Android',
+        description: 'Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news, using Guardian API.',
+        link: 'https://github.com/Bhavy457/News-Application',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: book,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'BookStore Management Android',
+        description: 'Native android app built using Java, XML and Volley dependencies. Aims to provide a comprehensive solution for managing and facilitating book transactions.',
+        link: 'https://github.com/Bhavy457/BookStore-Management-Application',
     },
     {
-        iconUrl: estate,
+        iconUrl: photography,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Photography Portfolio',
+        description: 'A template for a Photography Portfolio website. Made with HTML, CSS, JavaScript.',
+        link: 'https://github.com/Bhavy457/Photography-Portfolio',
     },
     {
-        iconUrl: summiz,
+        iconUrl: bank,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'JavaScript Projects Website',
+        description: 'This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.',
+        link: 'https://github.com/Bhavy457/JavaScript-Projects',
     }
 ];
