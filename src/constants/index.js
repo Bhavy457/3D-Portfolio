@@ -1,4 +1,4 @@
-import { varcons, sutish, bank, book, classifier, news, photography, port } from "../assets/images";
+import { varcons, sutish, bank, book, classifier, news, photography, port , js } from "../assets/images";
 import {
     contact,
     css,
@@ -122,7 +122,7 @@ export const experiences = [
         company_name: "Sutish Tech Solutions Pvt Ltd",
         icon: sutish,
         iconBg: "#fbc3bc",
-        date: "July 2023 - August 2023",
+        date: "May 2023 - August 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -187,7 +187,7 @@ export const projects = [
         link: 'https://github.com/Bhavy457/Photography-Portfolio',
     },
     {
-        iconUrl: bank,
+        iconUrl: js,
         theme: 'btn-back-yellow',
         name: 'JavaScript Projects Website',
         description: 'This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.',
