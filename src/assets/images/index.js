@@ -1,6 +1,7 @@
 import hero from './hero.jpg'
 import varcons from './varcons.jpg'
 import sutish from './sutish.jpg'
+import js from './js.png'
 import logo from './logo.svg'
 import bank from './bank.png'
 import book from './book.png'
@@ -16,6 +17,7 @@ export {
     logo,
     bank,
     book,
+    js,
     classifier,
     news,
     photography,
