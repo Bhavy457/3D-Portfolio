@@ -109,7 +109,7 @@ export const experiences = [
         company_name: "Varcons Technologies",
         icon: varcons,
         iconBg: "#accbe1",
-        date: "August 2023 - September 2023 ",
+        date: "August 2023 - September 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -122,7 +122,7 @@ export const experiences = [
         company_name: "Sutish Tech Solutions Pvt Ltd",
         icon: sutish,
         iconBg: "#fbc3bc",
-        date: "May 2023 - August 2023 ",
+        date: "May 2023 - August 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
