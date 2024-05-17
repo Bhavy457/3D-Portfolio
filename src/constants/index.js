@@ -105,7 +105,7 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Full Stack Developer",
+        title: "Full Stack Developer Intern",
         company_name: "Varcons Technologies",
         icon: varcons,
         iconBg: "#accbe1",
@@ -118,16 +118,15 @@ export const experiences = [
         ],
     },
     {
-        title: "Full Stack Java Developer",
+        title: "Project Coordinator Intern",
         company_name: "Sutish Tech Solutions Pvt Ltd",
         icon: sutish,
         iconBg: "#fbc3bc",
-        date: "May 2023 - August 2023",
+        date: "Feb 2023 - August 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Improved customer satisfaction rates by 25% through proactive communication, navigating timely resolutions of hardware repair and installation issues.",
+            "Contributed to a 20% increase in customer retention by designing and implementing a personalized follow-up system, providing ongoing support, and administering maintenance services.",
+            "Streamlined the repair and installation process, organized and oversaw service operations, resulting in a 15% reduction in service delivery time and a 10% increase in service capacity, balancing and coordinating to meet and exceed customer expectations.",  
         ],
      },
 ];
